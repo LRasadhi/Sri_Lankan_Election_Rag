@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Database files
+*.sqlite3
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Application specific
+chroma_db/
+data/
+*.bin
+*.pdf
