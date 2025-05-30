@@ -3,7 +3,7 @@ from langchain_google_genai.chat_models import ChatGoogleGenerativeAI
 
 class AnswerGenerator:
     """Generate answers using Gemini"""
-    def __init__(self, api_key, model_name="gemini-pro", temperature=0.7):
+    def __init__(self, api_key, model_name="gemini-2.0-flash", temperature=0.7):
         self.llm = ChatGoogleGenerativeAI(
             model=model_name,
             google_api_key=api_key,
